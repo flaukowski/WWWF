@@ -8,4 +8,4 @@ A festival across the world is needed.  Planning and marketing of events in all 
 
 All activities besides competition would celebrate our creations. Our art, our technology, our structures, and our abstractions.  We will celebrate our existence.  
 
-
+The goal is to cause a cease fire in the conflicts around the world for at least 7 days.  During this time, we can all reflect on our true nature and purpose for existence.  After the festival, we can resume, with a new perspective.
