@@ -1,5 +1,5 @@
 # WWWF
-World Wide Wrestling Festival
+World Wide Music Festival
 
 The point is this.  If the humanity does not seek to change, for the better, we will self-destruct.  This is the nature of things.  The fighting in Ukraine must stop before it is too late.  Before any further escalation occurs.  Here is the proposal:
 
