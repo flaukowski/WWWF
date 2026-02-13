@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #1a1a1a;
+  --wwwf-earth: #8B4513;
+  --wwwf-clay: #D4A574;
+  --wwwf-stone: #A8A8A8;
+  --wwwf-olive: #556B2F;
+  --wwwf-peace: #4A90E2;
+  --wwwf-unity: #E8DCC4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* WWWF Custom Styles */
+.wwwf-hero {
+  background: linear-gradient(135deg, var(--wwwf-unity) 0%, var(--wwwf-clay) 100%);
+}
+
+.wwwf-section {
+  @apply py-16 px-4;
+}
+
+.wwwf-card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 border border-gray-200 dark:border-gray-700;
+}
+
+.wwwf-button {
+  @apply px-6 py-3 rounded-md font-semibold transition-all duration-200 hover:scale-105;
+}
+
+.wwwf-button-primary {
+  @apply wwwf-button bg-wwwf-peace text-white hover:bg-blue-600;
+}
+
+.wwwf-button-secondary {
+  @apply wwwf-button bg-wwwf-olive text-white hover:bg-green-800;
+}
+
+.wwwf-heading {
+  @apply font-bold text-4xl md:text-5xl lg:text-6xl text-balance;
+}
+
+.wwwf-subheading {
+  @apply font-semibold text-2xl md:text-3xl text-balance;
+}
